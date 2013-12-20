@@ -1,0 +1,25 @@
+hello , This is tdx tool
+
+# 进入一个文件夹
+cd adir
+# 初始化
+git init
+# 加入文件
+git add *.py
+git add README
+# commit
+git commit -m '提交说明'
+
+# 一个起源,第一次使用
+git remote add origin git@github.com:bluegrunt/pytdx.git
+# 将本次的文件真正提交到远端
+git push -u origin master
+# or
+git push --force
+
+# clone to a dir
+git clone git@github.com:bluegrunt/tdx_tool.git adir
+
+#  another more -----
+
+
